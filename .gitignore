@@ -6,10 +6,10 @@
 # Virtual environment
 .venv/
 venv/
-.venv\
-venv\
+site-packages/
+sites_packages/
 
-# Python
+# Python cache
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -17,6 +17,3 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
-# Python dependencies
-site-packages/
-sites_packages/
